@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
         position: absolute;
         bottom: 0;
         display: flex;
@@ -56,4 +56,40 @@ body {
 
 .nav1 a:hover::after{
     transform: scaleX(1);
+} */
+
+body, html{
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+.container{
+    background: linear-gradient(135deg, #9406e7, #3107af);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    border-radius: 20px;
+    max-width: 400px;
+}
+
+.content :hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.photo{
+    width: 150px;
+    height: auto;
+    border-radius: 20px;
 }
