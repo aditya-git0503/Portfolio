@@ -90,7 +90,6 @@ body, html{
 .footer{
     background-color: #1a1a1a;
     display: flex;
-    /* height: 50px; */
     width: 100%;
     padding: 20px 0;
 }
@@ -112,4 +111,31 @@ body, html{
 .footer-content a:hover {
   text-decoration: underline;
   color: orange;
+}
+
+.github-logo {
+    width: 30px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.leetcode-logo {
+    width: 30px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.linkedin-logo{
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
 }
