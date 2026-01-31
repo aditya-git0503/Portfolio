@@ -1,12 +1,5 @@
-/* .footer {
-        position: absolute;
-        bottom: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        padding: 20px;
-}
+
+/*
 
 body {
     color: white;
@@ -83,7 +76,7 @@ body, html{
     max-width: 400px;
 }
 
-.content :hover{
+.content:hover{
     color: orange;
     cursor: pointer;
 }
@@ -92,4 +85,31 @@ body, html{
     width: 150px;
     height: auto;
     border-radius: 20px;
+}
+
+.footer{
+    background-color: #1a1a1a;
+    display: flex;
+    /* height: 50px; */
+    width: 100%;
+    padding: 20px 0;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-content a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  object-fit: contain;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+  color: orange;
 }
